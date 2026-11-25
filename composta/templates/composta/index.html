@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAEC - ¿Qué es una Composta?</title>
+    <style>
+        body { font-family: system-ui, -apple-system, sans-serif; line-height: 1.6; margin: 0; color: #2d3748; background: #f7fafc; }
+        header { background: #2f855a; color: white; padding: 3rem 1.5rem; text-align: center; }
+        main { max-width: 850px; margin: 2rem auto; padding: 0 1.5rem; }
+        section { background: white; padding: 2rem; border-radius: 10px; margin-bottom: 1.5rem; box-shadow: 0 2px 6px rgba(0,0,0,0.06); }
+        h1 { margin: 0 0 0.5rem; }
+        h2 { color: #276749; border-bottom: 2px solid #c6f6d5; padding-bottom: 0.4rem; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+        .verde { background: #f0fff4; padding: 1rem; border-left: 4px solid #38a169; border-radius: 4px; }
+        .cafe { background: #fffaf0; padding: 1rem; border-left: 4px solid #dd6b20; border-radius: 4px; }
+        .no-usar { background: #fff5f5; padding: 1rem; border-left: 4px solid #e53e3e; border-radius: 4px; }
+        footer { text-align: center; padding: 1.5rem; color: #718096; font-size: 0.9rem; }
+        @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>La Composta: Transformando Residuos en Vida</h1>
+        <p>Proyecto Aula, Escuela y Comunidad (PAEC)</p>
+    </header>
+    <main>
+        <section>
+            <h2>¿Qué es una composta?</h2>
+            <p>La composta es un abono orgánico natural que se obtiene mediante la descomposición controlada de residuos orgánicos (como restos de frutas, verduras y hojas secas) gracias a la acción de microorganismos, oxígeno y humedad. El resultado es una tierra oscura, rica en nutrientes y sin malos olores llamada <strong>humus</strong>.</p>
+        </section>
+
+        <section>
+            <h2>¿Por qué es importante hacer composta?</h2>
+            <ul>
+                <li><strong>Reduce la basura:</strong> Cerca del 50% de los residuos domésticos son orgánicos; compostarlos evita que lleguen a los rellenos sanitarios.</li>
+                <li><strong>Combate el cambio climático:</strong> Disminuye la emisión de gas metano producido por la descomposición sin oxígeno en los basureros.</li>
+                <li><strong>Nutre el suelo:</strong> Mejora la fertilidad de la tierra, retiene la humedad y sustituye a los fertilizantes químicos.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>¿Qué materiales se necesitan?</h2>
+            <p>Para lograr un buen equilibrio, se deben alternar capas de materiales húmedos (verdes) y secos (cafés):</p>
+            <div class="grid">
+                <div class="verde">
+                    <h3>Materiales Verdes (Nitrógeno)</h3>
+                    <ul>
+                        <li>Cáscaras de frutas y verduras</li>
+                        <li>Posos de café y bolsas de té</li>
+                        <li>Cáscaras de huevo trituradas</li>
+                        <li>Restos de pasto o poda fresca</li>
+                    </ul>
+                </div>
+                <div class="cafe">
+                    <h3>Materiales Cafés (Carbono)</h3>
+                    <ul>
+                        <li>Hojas secas y ramas pequeñas</li>
+                        <li>Cartón y papel sin tinta ni plástico</li>
+                        <li>Aserrín de madera natural</li>
+                        <li>Paja o viruta</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>¿Qué NO debes poner en la composta?</h2>
+            <div class="no-usar">
+                <p>Evita agregar estos residuos, ya que generan malos olores, atraen plagas o contaminan el abono:</p>
+                <ul>
+                    <li>Carnes, huesos, pescados y lácteos</li>
+                    <li>Aceites, grasas o comida muy condimentada</li>
+                    <li>Excremento de perros o gatos</li>
+                    <li>Plásticos, metales, vidrio o colillas de cigarro</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        Proyecto Informativo PAEC &bull; Desarrollado con Django
+    </footer>
+</body>
+</html>
